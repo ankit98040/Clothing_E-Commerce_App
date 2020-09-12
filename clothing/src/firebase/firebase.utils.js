@@ -12,6 +12,10 @@ const config = {
     appId: "1:484946873630:web:30929b4d48250fa64d4d0f"
   };
 
+  export const createUserProfileDocument = async (userAuth, additionalData) => {
+    if (!userAuth) return;
+  }
+
   firebase.initializeApp(config);
 
   export const auth = firebase.auth();
