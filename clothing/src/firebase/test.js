@@ -1,3 +1,5 @@
+//this file was for testing the firebase. this has nothing to do with the project
+
 import firebase from 'firebase/app';
 import 'firebase/firestore';
 
